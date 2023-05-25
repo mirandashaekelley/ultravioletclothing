@@ -1,0 +1,11 @@
+.featuredcollectionsheader > .sectionheader {
+    justify-content: center;
+}
+.featuredcollectionssection {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+}

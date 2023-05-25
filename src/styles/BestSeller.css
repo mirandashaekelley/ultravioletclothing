@@ -1,0 +1,44 @@
+
+.bestsellersection {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+}
+.bestsellersection > div {
+    cursor: pointer;
+}
+.bestsellersection .left{
+    /* border-right: 1px solid; */
+}
+.photo {
+    display: flex;
+    justify-content: center;
+}
+.photo:hover, .photo:active {
+    transform: scale(1.03); 
+    transition-duration: 0.4s;
+}
+.collectionname {
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.price {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.plus {
+    padding-right: 5px;
+}
+.verticalline hr {
+    border-style: none;
+    background: black;
+    cursor: none;
+}

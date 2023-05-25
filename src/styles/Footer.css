@@ -1,0 +1,14 @@
+.footer > .sectionheader{
+    font-size: 28px;
+}
+.footer .sectionheader .centercolumn > div {
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.footer .sectionheader .rightcolumn {
+    font-size: 14px;
+}
+.footer .sectionheader .leftcolumn:hover, .footer .sectionheader .leftcolumn:active{
+    transform: scale(1.03); 
+    transition-duration: 0.4s;
+}

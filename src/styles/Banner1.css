@@ -1,0 +1,30 @@
+.banner1 {
+    height: 450px;
+    background-size: 200px 200px;
+    background-color: #F9FBFF;
+    background-image:
+      linear-gradient(to right, #cdcae689 1px, transparent 1px),
+      linear-gradient(to bottom, #cdcae689 1px, transparent 1px);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-between;
+    user-select: none;
+    /* border-bottom: 1.5px solid; */
+}
+.banner1left, .banner1right {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    justify-content: space-around;
+    visibility: hidden ;
+}
+
+.top-image {
+
+}
+.banner1text {
+    font-size: 58px;
+    max-width: 800px;
+    align-self: center;
+}
